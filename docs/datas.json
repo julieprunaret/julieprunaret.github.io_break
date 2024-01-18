@@ -1,4 +1,18 @@
 {
+  "settingsAction": {
+    "type": "IFRAME",
+    "width": 890,
+    "height": 748,
+    "uri": "https://example.com/settings-iframe-contents",
+    "label": "Settings"
+  },
+  "primaryAction": {
+    "type": "IFRAME",
+    "width": 890,
+    "height": 748,
+    "uri": "https://example.com/create-iframe-contents",
+    "label": "Create Ticket"
+  },
     "results": [
       {
         "objectId": 245,
@@ -103,19 +117,5 @@
             }
           ]
         }
-      ],
-      "settingsAction": {
-        "type": "IFRAME",
-        "width": 890,
-        "height": 748,
-        "uri": "https://example.com/settings-iframe-contents",
-        "label": "Settings"
-      },
-      "primaryAction": {
-        "type": "IFRAME",
-        "width": 890,
-        "height": 748,
-        "uri": "https://example.com/create-iframe-contents",
-        "label": "Create Ticket"
-      }
+      ]
     }
