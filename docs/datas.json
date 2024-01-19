@@ -8,10 +8,9 @@
         "priority": "HIGH",
           "project": "API",
           "reported_by": "ksmith@hubspot.com",
-          "description": "Customer is not able to find documentation about our bulk Contacts APIs.",
+          "description": "Description de la compagnie",
           "reporter_type": "Support Rep",
           "status": "Grandes entreprises",
-          "ticket_type": "Bug",
           "updated": "2016-09-23",
           "properties": [
             {
@@ -66,10 +65,9 @@
           "priority": "NORMAL",
             "project": "API",
             "reported_by": "ksmith@hubspot.com",
-            "description": "Customer is not able to find documentation about our bulk Contacts APIs.",
+            "description": "Description de la compagnie",
             "reporter_type": "Support Rep",
             "status": "Grandes entreprises",
-            "ticket_type": "Bug",
             "updated": "2016-09-23",
             "properties": [
               {
