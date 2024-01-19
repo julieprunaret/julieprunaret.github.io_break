@@ -1,23 +1,8 @@
 {
-  "settingsAction": {
-    "type": "IFRAME",
-    "width": 890,
-    "height": 748,
-    "uri": "https://example.com/settings-iframe-contents",
-    "label": "Settings"
-  },
-  "primaryAction": {
-    "type": "IFRAME",
-    "width": 890,
-    "height": 748,
-    "uri": "https://example.com/create-iframe-contents",
-    "label": "Create Ticket"
-  },
     "results": [
-
       {
         "objectId": 988,
-        "title": "API-54: Question about bulk APIs",
+        "title": "Trinnov Card",
         "link": "http://example.com/2",
         "created": "2016-08-04",
         "priority": "HIGH",
@@ -30,20 +15,25 @@
           "updated": "2016-09-23",
           "properties": [
             {
-              "label": "Resolved by",
+              "label": "Compagnie",
+              "dataType": "STRING",
+              "value": "Nom de la compagnie"
+            },
+            {
+              "label": "Responsable",
               "dataType": "EMAIL",
               "value": "ijones@hubspot.com"
             },
             {
-              "label": "Resolution type",
-              "dataType": "STRING",
-              "value": "Referred to documentation"
+              "label": "Niveau du dead",
+              "dataType": "CURRENCY",
+              "value": "94908.34",
+              "currencyCode": "EUR"
             },
             {
-              "label": "Resolution impact",
-              "dataType": "CURRENCY",
-              "value": "94.34",
-              "currencyCode": "GBP"
+              "label": "Marché",
+              "dataType": "STRING",
+              "value": "Musique"
             }
           ],
           "actions": [
@@ -118,5 +108,19 @@
             }
           ]
         }
-      ]
+      ],
+      "settingsAction": {
+        "type": "IFRAME",
+        "width": 890,
+        "height": 748,
+        "uri": "https://example.com/settings-iframe-contents",
+        "label": "Settings"
+      },
+      "primaryAction": {
+        "type": "IFRAME",
+        "width": 890,
+        "height": 748,
+        "uri": "https://example.com/create-iframe-contents",
+        "label": "Create Ticket"
+      }
     }
