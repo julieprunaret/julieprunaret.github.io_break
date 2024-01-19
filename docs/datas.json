@@ -25,7 +25,7 @@
               "value": "ijones@hubspot.com"
             },
             {
-              "label": "Niveau du dead",
+              "label": "Niveau du deal",
               "dataType": "CURRENCY",
               "value": "94908.34",
               "currencyCode": "EUR"
@@ -33,7 +33,7 @@
             {
               "label": "Marché",
               "dataType": "STRING",
-              "value": "Musique"
+              "value": "Industrie sonore"
             }
           ],
           "actions": [
@@ -46,9 +46,9 @@
             },
             {
               "type": "CONFIRMATION_ACTION_HOOK",
-              "confirmationMessage": "Are you sure you want to delete this ticket?",
-              "confirmButtonText": "Yes",
-              "cancelButtonText": "No",
+              "confirmationMessage": "Voulez vous supprimer ce ticket?",
+              "confirmButtonText": "Oui",
+              "cancelButtonText": "Non",
               "httpMethod": "DELETE",
               "associatedObjectProperties": [
                 "protected_account"
