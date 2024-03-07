@@ -1,187 +1,179 @@
 {
-    "results": [
-      {
-        "objectId": 988,
-        "title": "Trinnov Card",
-        "link": "http://example.com/2",
-        "created": "2016-08-04",
-        "priority": "HIGH",
-          "project": "API",
-          "reported_by": "ksmith@hubspot.com",
-          "description": "Description de la compagnie",
-          "reporter_type": "Support Rep",
-          "status": "Grandes entreprises",
-          "updated": "2016-09-23",
-          "properties": [
-            {
-              "label": "Compagnie",
-              "dataType": "STRING",
-              "value": "Nom de la compagnie"
-            },
-            {
-              "label": "Responsable",
-              "dataType": "EMAIL",
-              "value": "ijones@hubspot.com"
-            },
-            {
-              "label": "Niveau du deal",
-              "dataType": "CURRENCY",
-              "value": "94908.34",
-              "currencyCode": "EUR"
-            },
-            {
-              "label": "Marché",
-              "dataType": "STRING",
-              "value": "Industrie sonore"
-            }
-          ],
-          "actions": [
-            {
-              "type": "IFRAME",
-              "width": 890,
-              "height": 748,
-              "uri": "https://example.com/edit-iframe-contents",
-              "label": "Edit"
-            },
-            {
-              "type": "CONFIRMATION_ACTION_HOOK",
-              "confirmationMessage": "Voulez vous supprimer ce ticket?",
-              "confirmButtonText": "Oui",
-              "cancelButtonText": "Non",
-              "httpMethod": "DELETE",
-              "associatedObjectProperties": [
-                "protected_account"
-              ],
-              "uri": "https://example.com/tickets/245",
-              "label": "Delete"
-            }
-          ]
+    "datas": {
+      "synchro": [
+        {
+          "id": 1,
+          "id_client": "ALPHA",
+          "id_sync": "HUBSPOT",
+          "name": "mapping_entreprise",
+          "url": "#",
+          "statut": 0,
+          "last_sync": "01/12/2023",
+          "short_description": "Pour envoyer les contacts ver shub spot",
+          "last_statut": "red"
         },
         {
-          "objectId": 295,
-          "title": "Trinnov Card 2",
-          "link": "http://example.com/2",
-          "created": "2016-08-04",
-          "priority": "NORMAL",
-            "project": "API",
-            "reported_by": "ksmith@hubspot.com",
-            "description": "Description de la compagnie",
-            "reporter_type": "Support Rep",
-            "status": "Grandes entreprises",
-            "updated": "2016-09-23",
-            "properties": [
-              {
-                "label": "Compagnie",
-                "dataType": "STRING",
-                "value": "Nom de la compagnie"
-              },
-              {
-                "label": "Responsable",
-                "dataType": "EMAIL",
-                "value": "ijones@hubspot.com"
-              },
-              {
-                "label": "Niveau du deal",
-                "dataType": "CURRENCY",
-                "value": "94908.34",
-                "currencyCode": "EUR"
-              },
-              {
-                "label": "Marché",
-                "dataType": "STRING",
-                "value": "Industrie sonore"
-              }
-            ],
-            "actions": [
-              {
-                "type": "IFRAME",
-                "width": 890,
-                "height": 748,
-                "uri": "https://example.com/edit-iframe-contents",
-                "label": "Edit"
-              },
-              {
-                "type": "CONFIRMATION_ACTION_HOOK",
-                "confirmationMessage": "Voulez vous supprimer ce ticket?",
-                "confirmButtonText": "Oui",
-                "cancelButtonText": "Non",
-                "httpMethod": "DELETE",
-                "associatedObjectProperties": [
-                  "protected_account"
-                ],
-                "uri": "https://example.com/tickets/245",
-                "label": "Delete"
-              }
-            ]
+            "id": 2,
+            "id_client": "ALPHA",
+            "id_sync": "HUBSPOT",
+            "name": "Tickets",
+            "url": "#",
+            "statut": 0,
+            "last_sync": "04/02/2024",
+            "short_description": "Pour connaitre le nombre de Ticket contient votre compte",
+            "last_statut": "green"
           },
+          {
+            "id": 3,
+            "id_client": "ALPHA",
+            "id_sync": "SAGE",
+            "name": "Contrats",
+            "url": "#",
+            "statut": 0,
+            "last_sync": "04/01/2024",
+            "short_description": "Pour stocker les contrat dans votre base",
+            "last_statut": "orange"
+          },
+          {
+            "id": 4,
+            "id_client": "ALPHA",
+            "id_sync": "HUBSPOT",
+            "name": "mapping_entreprise",
+            "url": "#",
+            "statut": 0,
+            "last_sync": "09/04/2023",
+            "short_description": "Pour envoyer les contacts ver shub spot",
+            "last_statut": "red"
+          },
+          {
+            "id": 5,
+            "id_client": "BETA",
+            "id_sync": "HUBSPOT",
+            "name": "Contrat",
+            "url": "#",
+            "statut": 1,
+            "last_sync": "09/04/2023",
+            "short_description": "Pour envoyer les contacts ver shub spot",
+            "last_statut": "red"
+          },
+          {
+            "id": 6,
+            "id_client": "BETA",
+            "id_sync": "SALESFORCE",
+            "name": "Devis",
+            "url": "#",
+            "statut": 1,
+            "last_sync": "09/04/2023",
+            "short_description": "Pour envoyer les contacts ver shub spot",
+            "last_statut": "red"
+          },
+          {
+            "id": 7,
+            "id_client": "BETA",
+            "id_sync": "SALESFORCE",
+            "name": "Formation",
+            "url": "#",
+            "statut": 1,
+            "last_sync": "09/04/2023",
+            "short_description": "Pour envoyer les contacts ver shub spot",
+            "last_statut": "red"
+          }
+      ],
+      "history": [
         {
-          "objectId": 245,
-          "title": "Compagnies",
-          "link": "http://example.com/1",
-          "created": "2016-09-15",
-          "market": "Industrie musicale",
-          "project": "API",
-          "reporter_type": "Account Manager",
-          "status": "In Progress",
-          "ticket_type": "Bug",
-          "updated": "2016-09-28",
-          "properties": [
-            {
-              "label": "Compagnie 1",
-              "dataType": "STRING",
-              "value": "Nom de la compagnie"
-            },
-            {
-              "label": "Compagnie 2",
-              "dataType": "STRING",
-              "value": "Nom de la compagnie"
-            },
-            {
-              "label": "Compagnie 3",
-              "dataType": "STRING",
-              "value": "Nom de la compagnie"
-            },
-            {
-              "label": "Compagnie 3",
-              "dataType": "STRING",
-              "value": "Nom de la compagnie"
-            }
-          ],
-          "actions": [
-            {
-              "type": "IFRAME",
-              "width": 890,
-              "height": 748,
-              "uri": "https://example.com/edit-iframe-contents",
-              "label": "Edit"
-            },
-            {
-              "type": "CONFIRMATION_ACTION_HOOK",
-              "confirmationMessage": "Voulez vous supprimer ce ticket?",
-              "confirmButtonText": "Oui",
-              "cancelButtonText": "Non",
-              "httpMethod": "DELETE",
-              "associatedObjectProperties": [
-                "protected_account"
-              ],
-              "uri": "https://example.com/tickets/245",
-              "label": "Delete"
-            }
-          ]
+            "id": 1,
+            "id_pipeline": 1,
+            "date": "04/01/2024",
+            "updated": 1,
+            "deleted": 0,
+            "errors": 2,
+            "warnings": 1,
+            "created": 300
+        },
+        {
+            "id": 2,
+            "id_pipeline": 1,
+            "date": "09/02/2024",
+            "updated": 2,
+            "deleted": 0,
+            "errors": 0,
+            "warnings": 1,
+            "created": 12
+        },
+        {
+            "id": 3,
+            "id_pipeline": 1,
+            "date": "12/03/2024",
+            "updated": 3,
+            "deleted": 0,
+            "errors": 2,
+            "warnings": 1,
+            "created": 0
+        },
+        {
+            "id": 4,
+            "id_pipeline": 1,
+            "date": "14/02/2024",
+            "updated": 3,
+            "deleted": 100,
+            "errors": 2,
+            "warnings": 1,
+            "created": 200
+        },
+        {
+            "id": 5,
+            "id_pipeline": 2,
+            "date": "13/01/2024",
+            "updated": 3,
+            "deleted": 0,
+            "errors": 2,
+            "warnings": 1,
+            "created": 300
+        },
+        {
+            "id": 6,
+            "id_pipeline": 2,
+            "date": "24/01/2024",
+            "updated": 1,
+            "deleted": 0,
+            "errors": 0,
+            "warnings": 1,
+            "created": 12
+        },
+        {
+            "id": 7,
+            "id_pipeline": 2,
+            "date": "12/02/2024",
+            "updated": 1,
+            "deleted": 100,
+            "errors": 0,
+            "warnings": 1,
+            "created": 0
         }
       ],
-      "settingsAction": {
-        "type": "IFRAME",
-        "width": 890,
-        "height": 748,
-        "uri": "https://example.com/settings-iframe-contents",
-        "label": "Settings"
-      },
-      "primaryAction": {
-        "type": "IFRAME",
-        "width": 890,
-        "height": 748,
-        "uri": "https://example.com/create-iframe-contents",
-        "label": "Create Ticket"
-      }
+      "events": [
+        {
+            "id": 1,
+            "id_pipeline": 1,
+            "id_history": 2,
+            "category": 1,
+            "description": "Le flux est coupé"
+        },
+        {
+            "id": 1,
+            "id_pipeline": 2,
+            "id_history": 1,
+            "category": 2,
+            "description": "Le flux connait des troubles"
+        },
+        {
+            "id": 1,
+            "id_pipeline": 2,
+            "id_history": 2,
+            "category": 3,
+            "description": "Le flux est en attente"
+        }
+      ]
     }
+  }
+  
